@@ -1,0 +1,4 @@
+This code defines a recursive solution to the LCS problem. The lcs method checks if the current elements of both lists match. 
+If they do, it adds that element to the result and recurses with the rest of both lists. 
+If not, it recurses twice: once ignoring the current element of the first list and once ignoring the current element of the second list, then it chooses the longer of the two results. 
+This approach is straightforward but can lead to a significant amount of repeated calculations, especially for larger lists.
