@@ -1,0 +1,4 @@
+This implementation leverages recursion to explore all possible combinations of coins that can be used to make up the total amount n. 
+It recursively checks each possibility by either including or excluding each coin type, and sums up all valid combinations that result in the total amount.
+By decreasing the total amount by the value of the current coin when chosen, and maintaining the amount when skipped, it covers all possible combinations of coins that sum up to the target amount. 
+This process continues until the amount becomes zero (a valid combination found) or negative (invalid path), or all coins have been considered, accumulating the total number of valid combinations.
